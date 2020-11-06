@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background-color{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.background-roma{
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/panorama1.jpg);
+  background-size: 100% 100%;
+}
+
+.title-rome{
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: lightgrey;
+  opacity: 0.8;  /* mi piace così */
+  font-size: 10vh;
+  text-shadow: 2px 2px black;
+}
+
+.background-london{
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/panorama2.jpg);
+  background-size: 100% 100%;
+}
+
+.title-london{
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: lightgrey;
+  opacity: 0.8;  /* mi piace così */
+  font-size: 10vh;
+  text-shadow: 2px 2px black;
+}
+
+.background-new-york{
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/panorama3.jpg);
+  background-size: 100% 100%;
+}
+
+.title-new-york{
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: lightgrey;
+  opacity: 0.8;  /* mi piace così */
+  font-size: 10vh;
+  text-shadow: 2px 2px black;
+}
